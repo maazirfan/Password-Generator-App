@@ -14,7 +14,7 @@ ALPHABTES_PATTERN = list(string.ascii_letters)
 
 def main():
     st.title("Password Generator App")
-    st.subheader("Awsome psswd generator")
+    st.subheader("Awsome Password Generator")
     
     menu = ["Home","About"]
     choice = st.sidebar.selectbox("Menu",menu)
